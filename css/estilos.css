@@ -1,0 +1,245 @@
+/*CSS PARA STICKY FOOTER Y HEADER*/
+/* main > .container {
+    padding: 60px 15px 0;
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  } */
+/*
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }   */
+
+/* .barraLinks{
+    display: flex;
+    align-items: end;
+    color: #fff;
+    width: 100%;
+    background-color: red;
+    height: 160px;
+  } */
+
+.nav-link {
+  color: #000000;
+}
+.bg-navBar {
+  color: #000000;
+  background-color: #ffdd00;
+}
+
+.logo {
+  display: flex;
+  width: 150px;
+  height: auto;
+}
+
+.carritoLink {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.carritoLink:hover {
+  background-color: rgba(177, 154, 9, 0.733);
+}
+.carrito {
+  display: flex;
+  width: 50px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.boton-carrito {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.imgProducto {
+  display: flex;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.imgProductoCard {
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: end;
+}
+
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* .mostrarPrimero {
+  position: fixed;
+  z-index: 2;
+  width: 80%;
+  margin: 2% 2.5%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: flex-wrap;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(255, 221, 0, 0.9);
+  border: 1px solid #000;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 5% 0%;
+} */
+
+.mostrarPrimero,
+.mostrarMas,
+.mostrarFormularioComprar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    width: 80%;
+    background-color: rgba(255, 221, 0, 0.9);
+    border: 1px solid #000;
+    margin: 0 auto;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+
+.mostrarMas,
+.mostrarFormularioComprar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;  
+}
+
+
+.mostrarFormularioComprar{
+  background-color: rgba(0,0,0,0.9);
+  color:rgb(255, 221, 0);
+  align-items: center;
+}
+
+.tituloModalH2,
+.precioModalH2{
+  margin: 10px;
+  padding: 10px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  width: 50%;
+  text-align: center;
+}
+
+.tituloModalP{
+  width: 50%;
+  font-size: 20px;
+}
+
+.cerrarModal,
+.comprarModal{
+  padding: 20px ;
+  margin: 30px;
+  font-size: 20px;
+  
+}
+
+.contenedorProductosModal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contenedorProductoModal{
+  border-bottom: 1px solid #0009;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+#cantidadProductoModal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border-left: 1px solid #0009;
+  border-right: 1px solid #0009; */
+  padding: 0 10px; 
+  border: 1px solid #000;
+
+}
+
+.botonesMasMenos {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #000;
+}
+
+
+.modalTitulo{
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+  color: #000;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+.montoTotalModal,
+.cantTotalModal{
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  color: #ffdd00;
+  background-color: #000;
+  width: auto;
+
+}
+.cantTotalModal{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000;
+  background-color: lightblue;
+  
+}
